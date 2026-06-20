@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mesai-takip</string>
+    <string name="title_activity_main">mesai-takip</string>
+    <string name="package_name">com.mesaitakip.app</string>
+    <string name="custom_url_scheme">com.mesaitakip.app</string>
+</resources>
