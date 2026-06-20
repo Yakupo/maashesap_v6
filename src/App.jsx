@@ -65,11 +65,7 @@ export default function App() {
       <AdBanner />
 
       <div className="w-full max-w-sm">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-2xl shadow-sm p-4 mb-4 flex items-center justify-between">
-          <div className="text-lg font-bold">📊 Mesai Takip</div>
-          <button onClick={() => setShowSettings(true)} className="text-2xl hover:scale-110 transition">⚙️</button>
-        </div>
+        {/* Header kaldırıldı */}
 
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm p-4 mb-4">
           {/* Month nav */}
@@ -170,13 +166,6 @@ export default function App() {
             <div className="flex justify-between"><span className="text-gray-500 dark:text-gray-400">Devamsızlık:</span><strong className="text-red-600 dark:text-red-400">{yearlyAbsenceDays} gün</strong></div>
           </div>
         </div>
-
-
-
-
-
-
-
 
       </div>
 
